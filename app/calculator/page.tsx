@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { GraduationCap } from "lucide-react"
 import Link from "next/link"
+import { SignedIn, UserButton } from "@clerk/nextjs"
 
 const semesterCredits = [18, 20, 24, 22, 22, 22, 20, 18]
 
@@ -42,10 +43,11 @@ export default function Calculator() {
       <header className="px-4 lg:px-6 h-14 flex items-center border-b">
         <Link className="flex items-center justify-center" href="/">
           <GraduationCap className="h-6 w-6" />
-          <span className="ml-2 text-lg font-semibold">CGPA Calculator</span>
+          <span className="ml-2 text-lg font-semibold">CGPA</span>
         </Link>
         <div className="ml-auto">
-          <ThemeToggle />
+          {/* <ThemeToggle /> */}
+          <SignedIn><UserButton /></SignedIn>
         </div>
       </header>
       <div className="container mx-auto py-8 flex-1">

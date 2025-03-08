@@ -17,7 +17,6 @@ export default function Login() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    // TODO: Implement Supabase authentication
     router.push("/calculator")
   }
 
@@ -29,7 +28,7 @@ export default function Login() {
           <span className="ml-2 text-lg font-semibold">CGPA Calculator</span>
         </Link>
         <div className="ml-auto">
-          <ThemeToggle />
+          {/* <ThemeToggle /> */}
         </div>
       </header>
       <div className="flex-1 flex items-center justify-center bg-muted/50">
