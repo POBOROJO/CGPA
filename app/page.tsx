@@ -42,7 +42,7 @@ export default function Home() {
       </main>
       <footer className="relative z-10 flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 text-white/60">
         <p className="text-xs">
-          © 2024 CGPA Calculator. All rights reserved.
+          Made by Parijat Bhattacharjee with ❤️
         </p>
       </footer>
     </div>
