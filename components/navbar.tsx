@@ -1,4 +1,5 @@
-import { Link, GraduationCap } from "lucide-react";
+import {GraduationCap } from "lucide-react";
+import Link from "next/link";
 import React from "react";
 import { SignedIn, SignedOut, SignInButton, SignUpButton, UserButton } from "@clerk/nextjs";
 const Navbar = () => {
@@ -7,7 +8,7 @@ const Navbar = () => {
       <header className="fixed w-full z-50 px-4 lg:px-6 h-14 flex items-center bg-[#030303]/50 backdrop-blur-md">
         <Link className="flex items-center justify-center" href="/">
           <GraduationCap className="h-6 w-6 text-white" />
-          <span className="ml-2 text-lg font-semibold text-white">CGPA</span>
+          <span className="ml-2 text-lg font-semibold text-white hidden sm:inline">CGPA</span>
         </Link>
         <nav className="ml-auto flex items-center gap-4">
         <SignedOut>
@@ -22,7 +23,8 @@ const Navbar = () => {
             </button>
           </SignUpButton>
         </SignedOut>
-        </nav>   
+        </nav>          
+        <SignedIn><UserButton /></SignedIn>  
       </header>
     </div>
   );
