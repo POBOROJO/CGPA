@@ -15,7 +15,7 @@ export default function Home() {
       <header className="fixed w-full z-50 px-4 lg:px-6 h-14 flex items-center bg-[#030303]/50 backdrop-blur-md">
         <Link className="flex items-center justify-center" href="/">
           <GraduationCap className="h-6 w-6 text-white" />
-          <span className="ml-2 text-lg font-semibold text-white">CGPA Calculator</span>
+          <span className="ml-2 text-lg font-semibold text-white">CGPA</span>
         </Link>
         <nav className="ml-auto flex items-center gap-4">
           <Link href="/login">
@@ -32,7 +32,7 @@ export default function Home() {
         <HeroGeometric 
           badge="CGPA Calculator"
           title1="Calculate Your"
-          title2="Academic Success"
+          title2="CGPA"
         />
         <div className="relative z-10 flex justify-center -mt-32">
           <Link href="/signup">
