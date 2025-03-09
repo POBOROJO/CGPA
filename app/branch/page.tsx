@@ -16,6 +16,10 @@ const branches = [
   { id: "ee", name: "Electrical Engineering", acronym: "EE" },
   { id: "ce", name: "Civil Engineering", acronym: "CE" },
   { id: "che", name: "Chemical Engineering", acronym: "CHE" },
+  { id: "ie", name: "Instrumentation Engineering", acronym: "IE" },
+  { id: "ipe", name: "Industrial & Power Engineering", acronym: "IPE" },
+  { id: "eie", name: "Electronics & Instrumentation Engineering",acronym: "EIE",},
+  { id: "eee", name: "Electrical & Electronics Engineering", acronym: "EEE" },
 ];
 
 export default function BranchSelection() {
