@@ -30,7 +30,11 @@ const branchNames = {
   me: "Mechanical Engineering",
   ee: "Electrical Engineering",
   ce: "Civil Engineering",
-  che: "Chemical Engineering"
+  che: "Chemical Engineering",
+  ie: "Instrumentation Engineering",
+  ipe: "Industrial & Power Engineering",
+  eie: "Power Electronics & Instrumentation Engineering",
+  eee: "Electrical & Electronics Engineering"
 }
 
 function CalculatorContent() {

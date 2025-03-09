@@ -18,7 +18,7 @@ const branches = [
   { id: "che", name: "Chemical Engineering", acronym: "CHE" },
   { id: "ie", name: "Instrumentation Engineering", acronym: "IE" },
   { id: "ipe", name: "Industrial & Power Engineering", acronym: "IPE" },
-  { id: "eie", name: "Electronics & Instrumentation Engineering",acronym: "EIE",},
+  { id: "eie", name: "Power Electronics & Instrumentation Engineering",acronym: "EIE",},
   { id: "eee", name: "Electrical & Electronics Engineering", acronym: "EEE" },
 ];
 
