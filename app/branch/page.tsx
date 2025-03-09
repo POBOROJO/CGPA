@@ -74,17 +74,7 @@ export default function BranchSelection() {
                     {branch.acronym}
                   </h3>
                   <p className="text-white/60 text-sm">{branch.name}</p>
-                  <BorderBeam
-                    duration={6}
-                    size={400}
-                    className="from-transparent via-red-500 to-transparent"
-                  />
-                  <BorderBeam
-                    duration={6}
-                    delay={3}
-                    size={400}
-                    className="from-transparent via-blue-500 to-transparent"
-                  />
+                  <BorderBeam duration={8} size={100} />
                 </Card>
               </motion.div>
             ))}
